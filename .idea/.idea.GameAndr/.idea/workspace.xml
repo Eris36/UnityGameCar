@@ -1,19 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a2f7796-c8c0-4608-a650-f047317e3d6a" name="Default Changelist" comment="" />
+    <list default="true" id="4a2f7796-c8c0-4608-a650-f047317e3d6a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameAndr/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameAndr/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameAndr/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameAndr/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameAndr/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameAndr/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Car/CarContoll.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Car/CarContoll.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Car/CarInventar.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Car/CarInventar.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/ResultInVictory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/ResultInVictory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Money/MonyDelete.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Money/MonyDelete.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Money/MonyToCreate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Money/MonyToCreate.cs.meta" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ParticleDestroy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/ResultInVictory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TimeController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/AnimRandom.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MoneyDisplay.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/ResultInVictory.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ParticleDestroy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TimeController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Car/CarInventar.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -22,7 +36,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CubeDestruction.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CarContoll.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Monu/MonyToCreate.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Car/CarInventar.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Monu/MonyDelete.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/Settings.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/road/RoadDestruction.cs" />
@@ -30,16 +43,19 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ParticleDestroy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/MenuControls.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/MenuPause.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/ResultInVictory.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TimeController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/roadBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Human/RandomColor.cs" />
         <option value="$PROJECT_DIR$/Assets/AnimRandom.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Car/CarContoll.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Car/CarInventar.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Money/MonyDelete.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/ResultInVictory.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="2HUnYW538b7lTiGw3D2GwIQh2N0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -107,6 +123,7 @@
       <workItem from="1670671010358" duration="6826000" />
       <workItem from="1670767958571" duration="785000" />
       <workItem from="1670831615004" duration="595000" />
+      <workItem from="1671284312452" duration="6085000" />
     </task>
     <servers />
   </component>
@@ -119,6 +136,10 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="146" y="242" width="1432" height="493" key="VCS.FileHistoryDialog" timestamp="1671285781330">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="146" y="242" width="1432" height="493" key="VCS.FileHistoryDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1671285781330" />
     <state x="529" y="320" width="672" height="678" key="search.everywhere.popup" timestamp="1668348921434">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>

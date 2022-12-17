@@ -8646,6 +8646,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2269998198938460896, guid: 80c6fd0b171bb6e4fb1e318b41af671e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 2269998198938460902, guid: 80c6fd0b171bb6e4fb1e318b41af671e,
         type: 3}
       propertyPath: DeadUI

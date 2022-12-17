@@ -13,7 +13,6 @@
           <e p="cameraFollow.cs" t="Include" />
           <e p="Car" t="Include">
             <e p="CarContoll.cs" t="Include" />
-            <e p="CarInventar.cs" t="Include" />
           </e>
           <e p="Human" t="Include">
             <e p="RandomColor.cs" t="Include" />
@@ -26,7 +25,6 @@
           </e>
           <e p="Money" t="Include">
             <e p="MonyDelete.cs" t="Include" />
-            <e p="MonyToCreate.cs" t="Include" />
           </e>
           <e p="MoneyDisplay.cs" t="Include" />
           <e p="ParticleDestroy.cs" t="Include" />

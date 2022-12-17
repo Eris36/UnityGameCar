@@ -7,7 +7,7 @@ namespace Game
     {
         private Rigidbody rb; // Объявление новой переменной Rigidbody
         private bool isMovingRight = true; // переменная, отражающая условное направление объекта
-        private float speed = 3f; // Скорость движения объекта
+        private float speed = 3f; // Скорость движения авто
         
         public GameObject DeadUI;
         public GameObject VictoryUI;
@@ -57,8 +57,7 @@ namespace Game
                 }
                 if (hit.collider.gameObject.name == "Finish")
                 {
-                    VictoryUI.SetActive(true);
-                    speed = 0f;
+                    Victory();
                 }
             } else
             {
@@ -70,13 +69,19 @@ namespace Game
         {
             rb.useGravity = true;
             rb.velocity = new Vector3 (0f,-10f, 0f);
-            Invoke ("isDead", 0.1f);
+            Invoke ("GameOwer", 0.1f);
         }
         
-        void isDead()
+        void GameOwer()
         {
             DeadUI.SetActive(true);
             Time.timeScale = 0;
+        }
+
+        void Victory()
+        {
+            VictoryUI.SetActive(true);
+            speed = 0f;
         }
     }
 }

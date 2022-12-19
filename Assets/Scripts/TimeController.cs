@@ -4,10 +4,8 @@ using UnityEngine.UI;
 public class TimeController : MonoBehaviour
 {
     [SerializeField] private Text _textView;
-    
     public float _timeStart = 20f;
-
-    // Update is called once per frame
+    
     void Update()
     {
         if (_timeStart >= 0)

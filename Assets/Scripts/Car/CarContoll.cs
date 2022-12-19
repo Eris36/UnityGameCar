@@ -28,7 +28,6 @@ namespace Game
 	    }
 
         void Update() {
-
             if(Input.GetMouseButtonDown(0)) {
                 if (hit.collider.gameObject.name != "Finish")
                     changeDirection();
@@ -53,7 +52,6 @@ namespace Game
                 if (hit.collider.gameObject.GetComponent<ActionWater>())
                 {
                     throw new ArgumentOutOfRangeException();
-                    hit.collider.gameObject.GetComponent<ActionWater>().StopPosition();
                 }
                 if (hit.collider.gameObject.name == "Finish")
                 {

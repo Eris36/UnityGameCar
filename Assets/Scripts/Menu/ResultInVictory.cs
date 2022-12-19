@@ -12,24 +12,50 @@ public class ResultInVictory : MonoBehaviour
     [SerializeField] private GameObject Money;
     [SerializeField] private Text _text;
     private int money_counter;
+    private StreamWriter sw;
+
+    String line;
     
     void Start()
     {
         money_counter = Money.GetComponent<MoneyDisplay>().value;
-        _text.text = "Result: " + money_counter;
-        /*if (!File.Exists(savePath))
+        
+        if (!File.Exists(savePath))
         {
-            var sw = new StreamWriter(savePath);
+            sw = new StreamWriter(savePath);
+        }
+        
+        StreamReader sr = new StreamReader(savePath);
+        // Считаем количество чисел.
+        int n = File.ReadAllLines(savePath).Length;
+        if (n == 0)
+        {
+            Debug.Log("Новый рекорд: " + money_counter);
         }
         else
         {
-            var sw = new StreamReader(savePath);
+            int maxResult = 0;
+            //Поиск максимального значения
+            for (int i = 0; i < n; i++)
+            {
+                int value = int.Parse(sr.ReadLine());
+                if (maxResult < value ) maxResult = value;
+            }
+            //Сравнение нового результата с максимальным результом
+            if (maxResult > money_counter)
+            {
+                Debug.Log("Новый рекорд: " + money_counter);
+            }
         }
-
-        sw.WriteLine("222");
+        sr.Close();
         
-        Debug.Log("Сохранил результат в фаил");
-        sw.Close();*/
+        //Запись результата в конец файла
+        using (StreamWriter writer = new StreamWriter(savePath, true))
+        {
+            _text.text = money_counter.ToString();
+            writer.WriteLineAsync(_text.text);
+        }
+        sw.Close();
         
     }
 }

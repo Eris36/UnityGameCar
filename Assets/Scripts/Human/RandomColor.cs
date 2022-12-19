@@ -10,6 +10,5 @@ public class RandomColor : MonoBehaviour
         var b = Random.Range(0, 1f);
         Color customColor = new Color(r, g, b, 1.0f);
         material.SetColor("_Color", customColor);
-        Debug.Log(customColor);
     }
 }

@@ -21,7 +21,7 @@ namespace Game
         public void AddValue()
         {
             value++;
-            _money.text = $"{value}";
+            _money.text = $"Gold:{value}";
         }
     }
 }

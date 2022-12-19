@@ -13,6 +13,10 @@
           <e p="cameraFollow.cs" t="Include" />
           <e p="Car" t="Include">
             <e p="CarContoll.cs" t="Include" />
+<<<<<<< HEAD
+=======
+            <e p="CarInventar.cs" t="Include" />
+>>>>>>> MiniMap
           </e>
           <e p="Human" t="Include">
             <e p="RandomColor.cs" t="Include" />
@@ -25,6 +29,10 @@
           </e>
           <e p="Money" t="Include">
             <e p="MonyDelete.cs" t="Include" />
+<<<<<<< HEAD
+=======
+            <e p="MonyToCreate.cs" t="Include" />
+>>>>>>> MiniMap
           </e>
           <e p="MoneyDisplay.cs" t="Include" />
           <e p="ParticleDestroy.cs" t="Include" />

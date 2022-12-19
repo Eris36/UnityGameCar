@@ -30,7 +30,6 @@ namespace Game
         }
 
         void SpawnPlatform() {
-            Debug.Log(timeGame);
             if(timeGame >= 0){
                 int random = Random.Range (0, 2);
                 if (random == 0) { // Установить префаб по оси X

@@ -1,9 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="5200621f-acb3-4254-b50a-9d04522c77cd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/ResultInVictory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/ResultInVictory.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Result.ga" beforeDir="false" afterPath="$PROJECT_DIR$/Result.ga" afterDir="false" />
+=======
+    <list default="true" id="229d0f2c-56c1-49c1-b8a4-f038beff9da0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Road_2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Road_2.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Car/CarContoll.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Car/CarContoll.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Human/RandomColor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Human/RandomColor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MoneyDisplay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MoneyDisplay.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TimeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TimeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/roadBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/roadBehavior.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
+>>>>>>> MiniMap
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,11 +33,23 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/ResultInVictory.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="2J84WX4AnT3cvL7ZLoUw16xoUD0" />
+=======
+        <option value="$PROJECT_DIR$/Assets/Scripts/Human/RandomColor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Car/CarContoll.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TimeController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/roadBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MoneyDisplay.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2J7xNmkkm62sqmwFz2EAw3CW6qw" />
+>>>>>>> MiniMap
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -62,12 +91,25 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="5200621f-acb3-4254-b50a-9d04522c77cd" name="Default Changelist" comment="" />
       <created>1671446411290</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671446411290</updated>
       <workItem from="1671446422802" duration="9745000" />
+=======
+      <changelist id="229d0f2c-56c1-49c1-b8a4-f038beff9da0" name="Default Changelist" comment="" />
+      <created>1671442887606</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1671442887606</updated>
+      <workItem from="1671442892242" duration="1000" />
+      <workItem from="1671443176609" duration="365000" />
+      <workItem from="1671444046192" duration="250000" />
+      <workItem from="1671444335016" duration="16000" />
+      <workItem from="1671444669887" duration="1053000" />
+>>>>>>> MiniMap
     </task>
     <servers />
   </component>

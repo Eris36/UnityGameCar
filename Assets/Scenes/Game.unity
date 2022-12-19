@@ -10716,6 +10716,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac37ff9f9ca84a044911828454c92c5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  savePath: Result.ga
   Money: {fileID: 1325170164}
   _text: {fileID: 1747292142}
 --- !u!114 &1747292142
@@ -13161,5 +13162,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2269998198938460889, guid: 80c6fd0b171bb6e4fb1e318b41af671e, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 80c6fd0b171bb6e4fb1e318b41af671e, type: 3}

@@ -17,11 +17,12 @@ namespace Game
         void Start()
         {
             for(int i=0; i<2; i++) {
-                GameObject _platform = Instantiate (road_1) as GameObject;
+                GameObject _platform = Instantiate (road_1);
                 _platform.transform.position = lastpos + new Vector3 (3f,0f,0f);
                 lastpos = _platform.transform.position;
             }
-            InvokeRepeating ("SpawnPlatform", 1f, 1f);    //запускакет функцию через секунду после старта и
+            //запускакет генеротор дороги через секунду
+            InvokeRepeating ("SpawnPlatform", 1f, 1f);    
         }
 
         private void Update()

@@ -7,7 +7,7 @@ namespace Game
     {
         private Rigidbody rb; // Объявление новой переменной Rigidbody
         private bool isMovingRight = true; // переменная, отражающая условное направление объекта
-        private float speed = 3f; // Скорость движения авто
+        public int speed = 3; // Скорость движения авто
         
         public GameObject DeadUI;
         public GameObject VictoryUI;
@@ -79,7 +79,7 @@ namespace Game
         void Victory()
         {
             VictoryUI.SetActive(true);
-            speed = 0f;
+            speed = 0;
         }
     }
 }

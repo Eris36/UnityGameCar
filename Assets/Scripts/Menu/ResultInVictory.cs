@@ -56,6 +56,5 @@ public class ResultInVictory : MonoBehaviour
             writer.WriteLineAsync(_text.text);
         }
         sw.Close();
-        
     }
 }

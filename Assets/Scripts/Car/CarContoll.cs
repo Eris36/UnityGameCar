@@ -15,9 +15,12 @@ namespace Game
         public GameObject DeadUI;
         public GameObject VictoryUI;
         RaycastHit hit;
+        
+        public AudioSource AudioCloseDor;
 
         void Start()
         {
+            AudioCloseDor = GetComponent<AudioSource>();
             StartCoroutine(ExampleCoroutine());
             rb = GetComponent<Rigidbody> (); // Получение доступа к Rigidbody
         }
@@ -96,9 +99,12 @@ namespace Game
             int saveSpeed = speed;
             speed = 0;
             isRotation = false;
-            yield return new WaitForSeconds(timeToStart);
+            yield return new WaitForSeconds(1);
+            AudioCloseDor.Play();
+            yield return new WaitForSeconds(timeToStart - 1);
             speed = saveSpeed;
             isRotation = true;
+            
         }
   }
 }

@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 
 namespace Game
@@ -7,13 +8,17 @@ namespace Game
     {
         private Rigidbody rb; // Объявление новой переменной Rigidbody
         private bool isMovingRight = true; // переменная, отражающая условное направление объекта
+        private bool isRotation = true; // переменная, отражающая условное возможности поворота
         public int speed = 3; // Скорость движения авто
+        public int timeToStart = 3;
         
         public GameObject DeadUI;
         public GameObject VictoryUI;
         RaycastHit hit;
 
-        void Start() {
+        void Start()
+        {
+            StartCoroutine(ExampleCoroutine());
             rb = GetComponent<Rigidbody> (); // Получение доступа к Rigidbody
         }
 
@@ -28,8 +33,10 @@ namespace Game
 	    }
 
         void Update() {
-            if(Input.GetMouseButtonDown(0)) {
-                if (hit.collider.gameObject.name != "Finish")
+            
+            if(Input.GetMouseButtonDown(0)) 
+            {
+                if (isRotation)
                     changeDirection();
             }
 
@@ -55,6 +62,7 @@ namespace Game
                 }
                 if (hit.collider.gameObject.name == "Finish")
                 {
+                    isRotation = false;
                     Victory();
                 }
             } else
@@ -81,5 +89,16 @@ namespace Game
             VictoryUI.SetActive(true);
             speed = 0;
         }
-    }
+
+        //Делаем паузу на время кат сцены в начале
+        IEnumerator ExampleCoroutine()
+        {
+            int saveSpeed = speed;
+            speed = 0;
+            isRotation = false;
+            yield return new WaitForSeconds(timeToStart);
+            speed = saveSpeed;
+            isRotation = true;
+        }
+  }
 }

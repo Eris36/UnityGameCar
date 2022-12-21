@@ -21,21 +21,19 @@
   <component name="ChangeListManager">
     <list default="true" id="4a2f7796-c8c0-4608-a650-f047317e3d6a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GameAndr/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameAndr/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameAndr/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameAndr/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GameAndr/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameAndr/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AnimRandom.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AnimRandom.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ActionWater.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ActionWater.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/CustomCarContoll.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/CustomCarContoll.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AnimRandom.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AnimRandom.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Car/CarContoll.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Car/CarContoll.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/ResultInVictory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/ResultInVictory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Woad.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/cameraFollow.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/cameraFollow.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/roadBehavior.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/roadBehavior.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/pngwing.com.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/pngwing.com.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/road/roadBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/road/roadBehavior.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Result.ga" beforeDir="false" afterPath="$PROJECT_DIR$/Result.ga" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +48,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/Editor/MyWindow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/ResultInVictory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TimeController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Editor/TestBehaviourEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MoneyDisplay.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Editor/MenuItems.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -74,7 +71,6 @@
         <option value="$PROJECT_DIR$/Assets/AnimRandom.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Car/CarInventar.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Money/MonyDelete.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/ResultInVictory.cs" />
         <option value="$PROJECT_DIR$/Assets/Editor/MenuItems1.cs" />
         <option value="$PROJECT_DIR$/Assets/Editor/MyScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ActionWater.cs" />
@@ -83,8 +79,10 @@
         <option value="$PROJECT_DIR$/Assets/Editor/MenuItems.cs" />
         <option value="$PROJECT_DIR$/Assets/Editor/CustomMyWindow.cs" />
         <option value="$PROJECT_DIR$/Assets/Editor/CustomCarController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Car/CarContoll.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/ResultInVictory.cs" />
         <option value="$PROJECT_DIR$/Assets/Editor/CustomCarContoll.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Car/CarContoll.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Road/roadBehavior.cs" />
       </list>
     </option>
   </component>
@@ -159,6 +157,7 @@
       <workItem from="1670831615004" duration="595000" />
       <workItem from="1671284312452" duration="6085000" />
       <workItem from="1671529765159" duration="8372000" />
+      <workItem from="1671603834322" duration="5696000" />
     </task>
     <servers />
   </component>
@@ -177,6 +176,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

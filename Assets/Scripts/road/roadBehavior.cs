@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -16,18 +17,23 @@ namespace Game
 
         void Start()
         {
-            for(int i=0; i<2; i++) {
-                GameObject _platform = Instantiate (road_1);
-                _platform.transform.position = lastpos + new Vector3 (3f,0f,0f);
-                lastpos = _platform.transform.position;
-            }
+            InvokeRepeating ("SpawnFirstPlatform", 2f, 1f); 
             //запускакет генеротор дороги через секунду
-            InvokeRepeating ("SpawnPlatform", 1f, 1f);    
+            InvokeRepeating ("SpawnPlatform", 3f, 1f);    
         }
 
         private void Update()
         {
             timeGame = TimeController.GetComponent<TimeController>()._timeStart;
+        }
+
+        void SpawnFirstPlatform()
+        {
+            for(int i=0; i<2; i++) {
+                GameObject _platform = Instantiate (road_1);
+                _platform.transform.position = lastpos + new Vector3 (3f,0f,0f);
+                lastpos = _platform.transform.position;
+            }
         }
 
         void SpawnPlatform() {
@@ -50,6 +56,11 @@ namespace Game
                 lastpos = _platform.transform.position;
                 CancelInvoke();
             }   
+        }
+        
+        IEnumerator ExampleCoroutine()
+        {
+            yield return new WaitForSeconds(4);
         }
     }
 }

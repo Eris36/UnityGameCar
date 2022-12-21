@@ -11,16 +11,15 @@
           <e p="CustomCarContoll.cs" t="Include" />
           <e p="MenuItems.cs" t="Include" />
           <e p="MyWindow.cs" t="Include" />
-          <e p="TestBehaviourEditor.cs" t="Include" />
         </e>
         <e p="Scripts" t="Include">
           <e p="ActionWater.cs" t="Include" />
-          <e p="AnimRandom.cs" t="Include" />
           <e p="Car" t="Include">
             <e p="cameraFollow.cs" t="Include" />
             <e p="CarContoll.cs" t="Include" />
           </e>
           <e p="Human" t="Include">
+            <e p="AnimRandom.cs" t="Include" />
             <e p="RandomColor.cs" t="Include" />
           </e>
           <e p="Menu" t="Include">

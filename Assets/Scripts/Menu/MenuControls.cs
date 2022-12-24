@@ -7,7 +7,7 @@ namespace Game
     {
         public void PlayPressed()
         {
-            SceneManager.LoadScene("Game");
+            SceneManager.LoadScene("Mult");
         }
     
         public void ExitPressed()

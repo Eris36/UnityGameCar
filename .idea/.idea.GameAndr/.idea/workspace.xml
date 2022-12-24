@@ -20,13 +20,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a2f7796-c8c0-4608-a650-f047317e3d6a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameAndr/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameAndr/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameAndr/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameAndr/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GameAndr/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameAndr/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animators/Human/HumanTheBeach.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animators/Human/HumanTheBeach.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animators/Human/Human_Driver.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animators/Human/Human_Driver.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animators/Human/Human_Driver.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animators/Human/Human_Driver.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Cylinder.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Cylinder.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Sand.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Sand.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Sun.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Sun.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/HumanInBeach.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/HumanInBeach.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Human_Driver.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Human_Driver.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Car/CarContoll.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Car/CarContoll.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Mult.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Mult.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Human/RandomColor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Human/RandomColor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/MenuControls.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/MenuControls.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Result.ga" beforeDir="false" afterPath="$PROJECT_DIR$/Result.ga" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,10 +54,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MultContoller.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ParticleDestroy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Editor/MyWindow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mult/Yacht.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/ResultInVictory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TimeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mult/Ball.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MoneyDisplay.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Editor/MenuItems.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -56,7 +76,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/road/RoadDestruction.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MoneyDisplay.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ParticleDestroy.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/MenuControls.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/MenuPause.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TimeController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/roadBehavior.cs" />
@@ -76,6 +95,11 @@
         <option value="$PROJECT_DIR$/Assets/Editor/CustomCarContoll.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Road/roadBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Car/CarContoll.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Mult/Yacht.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Mult/Ball.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Mult/TsunamiDistroy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/MenuControls.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MultContoller.cs" />
       </list>
     </option>
   </component>
@@ -86,6 +110,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -152,6 +177,7 @@
       <workItem from="1671529765159" duration="8372000" />
       <workItem from="1671603834322" duration="5696000" />
       <workItem from="1671618489255" duration="1555000" />
+      <workItem from="1671868718863" duration="9163000" />
     </task>
     <servers />
   </component>

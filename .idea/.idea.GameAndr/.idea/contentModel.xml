@@ -20,7 +20,6 @@
           </e>
           <e p="Human" t="Include">
             <e p="AnimRandom.cs" t="Include" />
-            <e p="RandomColor.cs" t="Include" />
           </e>
           <e p="Menu" t="Include">
             <e p="MenuControls.cs" t="Include" />
@@ -32,7 +31,14 @@
             <e p="MonyDelete.cs" t="Include" />
           </e>
           <e p="MoneyDisplay.cs" t="Include" />
+          <e p="Mult" t="Include">
+            <e p="Ball.cs" t="Include" />
+            <e p="TsunamiDistroy.cs" t="Include" />
+            <e p="Yacht.cs" t="Include" />
+          </e>
+          <e p="MultContoller.cs" t="Include" />
           <e p="ParticleDestroy.cs" t="Include" />
+          <e p="RandomColor.cs" t="Include" />
           <e p="road" t="Include">
             <e p="roadBehavior.cs" t="Include" />
             <e p="RoadDestruction.cs" t="Include" />

@@ -1,22 +1,25 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class TimeController : MonoBehaviour
+namespace Game
 {
-    [SerializeField] private Text _textView;
-    public float _timeStart = 20f;
-    
-    void Update()
+    public class TimeController : MonoBehaviour
     {
-        if (_timeStart >= 0)
+        [SerializeField] private Text _textView;
+        public float _timeStart = 20f;
+    
+        void Update()
         {
-            _timeStart -= Time.deltaTime;
-            _textView.text = Mathf.Round(_timeStart).ToString();
+            if (_timeStart >= 0)
+            {
+                _timeStart -= Time.deltaTime;
+                _textView.text = Mathf.Round(_timeStart).ToString();
+            }
+            else
+            {
+                _textView.text = "0";
+            }
         }
-        else
-        {
-            _textView.text = "0";
-        }
-        
-    }
+    }  
 }
+

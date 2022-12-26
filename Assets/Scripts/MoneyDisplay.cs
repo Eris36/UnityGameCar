@@ -7,6 +7,9 @@ namespace Game
     {
         public int value = 0;
         public Text _money;
+        
+        public AudioSource audioSource;
+        public AudioClip soundAddGold;
 
         private void OnEnable()
         {
@@ -20,6 +23,7 @@ namespace Game
         
         public void AddValue()
         {
+            audioSource.PlayOneShot(soundAddGold);
             value++;
             _money.text = $"Gold:{value}";
         }
